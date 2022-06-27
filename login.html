@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="./assets/login.css">
+    <link rel="stylesheet" href="./assets/responsive.css">
+</head>
+<body>
+    <div class="bang_dang_nhap_va_dang_xuat">
+        <div class="bang_dang_nhap">
+
+        <div class="nut_chuyen_dn_dk">
+            <button id="nut_chuyen_dn" onclick="chon_dang_nhap()">Đăng nhập</button>
+            <button id="nut_chuyen_dk" onclick="chon_dang_ki()">Đăng kí</button>
+        </div>
+    
+        <div id="bang_dang_nhap">
+            <form>
+                <input type="text" placeholder="Điền email hoặc tên đăng nhập"/>
+                <input type="password" placeholder="Điền mật khẩu"/>
+                <button type="button" class="nut_bam dang_nhap">Đăng nhập</button>
+                
+                <p><a href="">Quên mật khẩu</a></p>
+                <hr/>
+    
+            </form>
+        </div>
+    
+        <div id="bang_dang_ki">
+            <form>
+                <input type="email" placeholder="Điền email của bạn"/>
+                <input type="text" placeholder="Chọn tên đăng nhập"/>
+                <input type="password" placeholder="Tạo mật khẩu"/>
+                <button type="button" class="nut_bam dang_ki">Tạo tài khoản mới</button>
+                <p>Bấm <strong>tạo tài khoản mới</strong> nghĩa là bạn đồng ý với các
+                    <a href="">điều khoản </a> của chúng tôi.
+                </p>
+                <hr/>
+               
+            </form>
+        </div>
+    
+    </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

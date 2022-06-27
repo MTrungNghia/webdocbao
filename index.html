@@ -1,0 +1,1643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pnews</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/responsive.css">
+    <link rel="stylesheet" href="./assets/content.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto+Flex:opsz,wght@8..144,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="ca">
+        
+        <div class="dau-trang">
+            <div class="chinh-tai-khoan">
+
+                <div class="tai-khoan giua">
+                    <div class="nhap ">
+                        <div class="vtri">
+                            <span>New York, NY
+                                <i class="fa-regular fa-moon"></i>
+                                HI 58° LO 56°</span>
+                        </div>
+                        <div class="dnhap">
+                            <ul>
+                                <li><a href="">About</a></li>
+                                <li><a href="">Contact</a></li>
+                                <li><a href="">Sign up</a></li>
+                                <li><a href="">Log in</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mang">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-pinterest-p"></i>
+                        <i class="fa-brands fa-vimeo-v"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+    
+                </div>
+                
+            </div>
+            <div class="anh giua">
+                <div class="lo-go-chinh">
+
+                    <a class="lo-go">
+                        <img src="./assets/img/logo.webp" alt="Anh lo go">
+                    </a>
+                    <a onclick="mo_dieu_huong_dt()" class="chon-dien-thoai">
+                        <div  class="chon-dien-thoai-mo">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+                        <div class="chon-dien-thoai-dong an">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                        
+                    </a>
+                </div>
+
+                <!-- mobile and tablet -->
+                <div class="dieu-huong-dt an "> <!-- Them Class vao sau -->
+                    <div class="tai-khoan">
+                        <div class="vtri">
+                            <span>New York, NY
+                                <i class="fa-regular fa-moon"></i>
+                                HI 58° LO 56°</span>
+                        </div>
+                        <div class="dnhap">
+                            <ul>
+                                <li><a href="">About</a></li>
+                                <li><a href="">Contact</a></li>
+                                <li><a href="">Sign up</a></li>
+                                <li><a href="">Log in</a></li>
+                            </ul>
+                        </div>
+                        <div class="mang">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-pinterest-p"></i>
+                            <i class="fa-brands fa-vimeo-v"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                        </div>
+                        
+                    </div>
+                    <ul class="the-loai-dt">
+                        <li class="the-loai-dt-dau">
+                            <div class="the-loai-dt-cha">
+
+                                <a href="">
+                                    <span>Home</span>
+                                </a>
+                                <div class="the-loai-dt-dau-hinh" onclick="hien_thi_dau()">
+                                    <div class="sang-phai">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </div>
+                                    <div class="xuong-duoi an">
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        
+                            <div class="lua-chon-dt-dau an">
+                                <div class="thanh-lua-chon-dt">
+                                    <ul class="ds-thanh-lua-chon-dt">
+                                        <li><a href="">Trang chủ</a></li>
+                                        <li><a href="">Thể loại</a></li>
+                                        <li><a href="">Liên hệ</a></li>
+                                    </ul>
+                                </div>
+                                
+                            </div>
+                        </li>
+                        <li><a href="">
+                            <span>News</span>
+                        </a></li>
+                        <li><a href="">
+                            <span>Entertaiment</span>
+                        </a></li>
+                        <li><a href="">
+                            <span>Business</span>
+                        </a></li>
+                        <li><a href="">
+                            <span>Travel</span>
+                        </a></li>
+                        <li><a href="">
+                            <span>Life Style</span>
+                        </a></li>
+                        <li><a href="">
+                            <span>Video</span>
+                        </a></li>
+                        <li class="the-loai-dt-cuoi">
+                            <div class="the-loai-dt-cha">
+                                <a href="">
+                                    <span>Features</span>
+                                </a>
+                                
+                                <div class="the-loai-dt-cuoi-hinh" onclick="hien_thi_cuoi()">
+                                    <div class="sang-phai-cuoi">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </div>
+                                    <div class="xuong-duoi-cuoi an">
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="lua-chon-dt-cuoi an">
+                                <div class="thanh-lua-chon-dt">
+                                    <ul class="ds-thanh-lua-chon-dt">
+                                        <li><a href="">Category Page v1</a></li>
+                                        <li><a href="">Category Page v1</a></li>
+                                        <li><a href="">Blog Grid Sidebar</a></li>
+                                        <li><a href="">Category Page v1</a></li>
+                                        <li><a href="">Category Page v1</a></li>
+                                        <li><a href="">Blog Grid Sidebar</a></li>
+                                        <li><a href="">About us</a></li>
+                                        <li><a href="">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                                
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="tai">
+                    <img src="./assets/img/xbanner-01.jpg.pagespeed.ic.PfHDQl50gz.jfif" alt="">
+                </div>
+            </div>
+            <div class="thanh-luot hien">
+                <div class="thanh-luot-len giua">
+
+                    <div class="thanh-luot-logo an">
+                        <a class="lo-go">
+                            <img src="./assets/img/logo.webp" alt="Anh lo go">
+                        </a>
+                    </div>
+                    <div class="dieu-khien vi-tri-co-dinh giua">
+                        <div class="noi-dung-dieu-khien-thanh">      
+                            <ul class="the-loai">
+                                <li class="dieu-khien-duoc-chon">
+                                    <a href="">
+                                    Home
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </a>
+                                <div class="lua-chon">
+                                    <div class="thanh-lua-chon">
+                                        <ul class="ds-thanh-lua-chon">
+                                            <li><a href="">Trang chủ</a></li>
+                                            <li><a href="">Thể loại</a></li>
+                                            <li><a href="">Liên hệ</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                </li>
+                                <li class=""><a href="">
+                                    News
+                                    <i class="fa-solid fa-angle-down"></i>
+                                    </a>
+                                    <div class="lua-chon-sau">
+                                        <div class="thanh-lua-chon-sau">
+                                            <div class="lua-chon-sau-dieu-huong">
+                                                <ul class="ds-thanh-lua-chon-sau">
+                                                    <li><a class="lua-chon-link lua-chon-link-tin-tuc-co-dinh duoc-chon-trong-lua-chon-sau" href="" aria-expanded="true">All</a></li>
+                                                    <li><a class="lua-chon-link lua-chon-link-tin-tuc-co-dinh" href="" aria-expanded="false">Entertaiment</a></li>
+                                                    <li><a class="lua-chon-link lua-chon-link-tin-tuc-co-dinh" href="" aria-expanded="false">Fashion</a></li>
+                                                    <li><a class="lua-chon-link lua-chon-link-tin-tuc-co-dinh" href="" aria-expanded="false">Life Style</a></li>
+                                                    <li><a class="lua-chon-link lua-chon-link-tin-tuc-co-dinh" href="" aria-expanded="false">Technology</a></li>
+                                                    <li><a class="lua-chon-link lua-chon-link-tin-tuc-co-dinh" href="" aria-expanded="false">Travel</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="ds-noi-dung-lua-chon-sau">
+                                                <div aria-expanded="true" class="lua-chon-sau-noi-dung lua-chon-phan-tin-tuc-co-dinh" >
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-05.jpg.pagespeed.ic.s1Z8iTpwXe.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">aaaaa malesuada et lectus vitae Donec metus orci, malesuada et lectus vitae Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-10.jpg.pagespeed.ic.TMbbnvFltG.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-14.jpg.pagespeed.ic._smxioTLvb.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-36.jpg.pagespeed.ic.ZGCqBhJQrk.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="lua-chon-sau-noi-dung lua-chon-phan-tin-tuc-co-dinh" aria-expanded="false">
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-50.jpg.pagespeed.ic.lwTHfgyV-v.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae Donec metus orci, malesuada et lectus vitae Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-08.jpg.pagespeed.ic.OyBg0vTCNa.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-07.jpg.pagespeed.ic.iG-uXCoVpH.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-06.jpg.pagespeed.ic.wgeGpf1Hgi.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="lua-chon-sau-noi-dung lua-chon-phan-tin-tuc-co-dinh" aria-expanded="false">
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-21.jpg.pagespeed.ic.ZQeLSdAnv-.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae Donec metus orci, malesuada et lectus vitae Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-24.jpg.pagespeed.ic.ZSiI3Wj9Dq.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-22.jpg.pagespeed.ic.wqAjgQ3wT0.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-23.jpg.pagespeed.ic.aMq3wwOiQE.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="lua-chon-sau-noi-dung lua-chon-phan-tin-tuc-co-dinh" aria-expanded="false">
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-07.jpg.pagespeed.ic.iG-uXCoVpH.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae Donec metus orci, malesuada et lectus vitae Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-10.jpg.pagespeed.ic.TMbbnvFltG.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-05.jpg.pagespeed.ic.s1Z8iTpwXe.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-10.jpg.pagespeed.ic.TMbbnvFltG.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="lua-chon-sau-noi-dung lua-chon-phan-tin-tuc-co-dinh" aria-expanded="false">
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-05.jpg.pagespeed.ic.s1Z8iTpwXe.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae Donec metus orci, malesuada et lectus vitae Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-10.jpg.pagespeed.ic.TMbbnvFltG.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-05.jpg.pagespeed.ic.s1Z8iTpwXe.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-10.jpg.pagespeed.ic.TMbbnvFltG.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="lua-chon-sau-noi-dung lua-chon-phan-tin-tuc-co-dinh" aria-expanded="false">
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-05.jpg.pagespeed.ic.s1Z8iTpwXe.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">aaaaaaa metus orci, malesuada et lectus vitae Donec metus orci, malesuada et lectus vitae Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-10.jpg.pagespeed.ic.TMbbnvFltG.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-14.jpg.pagespeed.ic._smxioTLvb.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-36.jpg.pagespeed.ic.ZGCqBhJQrk.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><a href="">
+                                    Entertaiment
+                                    <i class="fa-solid fa-angle-down"></i>
+                                    </a>
+                                    <div class="lua-chon-sau">
+                                        <div class="thanh-lua-chon-sau">
+                                            <div class="lua-chon-sau-dieu-huong">
+                                                <ul class="ds-thanh-lua-chon-sau">
+                                                    <li><a class="lua-chon-link lua-chon-link-giai-tri-co-dinh duoc-chon-trong-lua-chon-sau" href="" aria-expanded="true">All</a></li>
+                                                    <li><a class="lua-chon-link lua-chon-link-giai-tri-co-dinh" href="" aria-expanded="false">Game</a></li>
+                                                    <li><a class="lua-chon-link lua-chon-link-giai-tri-co-dinh" href="" aria-expanded="false">Celebrity</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="ds-noi-dung-lua-chon-sau">
+                                                <div class="lua-chon-sau-noi-dung lua-chon-phan-giai-tri-co-dinh"  aria-expanded="true">
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-25.jpg.pagespeed.ic.xMfOgxF-54.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">aaaaa malesuada et lectus vitae Donec metus orci, malesuada et lectus vitae Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-27.jpg.pagespeed.ic.eKi-R6Efre.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-26.jpg.pagespeed.ic.1_sWUBIBYo.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-34.jpg.pagespeed.ic.8m5y32zf3N.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="lua-chon-sau-noi-dung lua-chon-phan-giai-tri-co-dinh" aria-expanded="false">
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-35.jpg.pagespeed.ic.1OnIo7J0en.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae Donec metus orci, malesuada et lectus vitae Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-36.jpg.pagespeed.ic.ZGCqBhJQrk.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-37.jpg.pagespeed.ic.RgEJRdBLn1.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-38.jpg.pagespeed.ic.BCfnDwQQZn.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="lua-chon-sau-noi-dung lua-chon-phan-giai-tri-co-dinh" aria-expanded="false">
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-39.jpg.pagespeed.ic._FthKn_32E.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae Donec metus orci, malesuada et lectus vitae Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-41.jpg.pagespeed.ic.hxGh4mqIfZ.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-42.jpg.pagespeed.ic.u4RenQMqFW.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-40.jpg.pagespeed.ic.iWS2TP9s2F.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+        
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><a href="">
+                                    Business
+                                    <i class="fa-solid fa-angle-down"></i>
+                                    </a>
+                                    <div class="lua-chon-sau">
+                                        <div class="thanh-lua-chon-sau">
+                                            <div class="lua-chon-sau-dieu-huong">
+                                                <ul class="ds-thanh-lua-chon-sau">
+                                                    <li><a class="lua-chon-link lua-chon-link-kinh-te-co-dinh duoc-chon-trong-lua-chon-sau" href="" aria-expanded="true">All</a></li>
+                                                    <li><a class="lua-chon-link lua-chon-link-kinh-te-co-dinh" href="" aria-expanded="false">Economy</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="ds-noi-dung-lua-chon-sau">
+                                                <div class="lua-chon-sau-noi-dung lua-chon-phan-kinh-te-co-dinh"  aria-expanded="true">
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-10.jpg.pagespeed.ic.TMbbnvFltG.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">aaaaa malesuada et lectus vitae Donec metus orci, malesuada et lectus vitae Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-11.jpg.pagespeed.ic.UQAgfiqIgA.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-26.jpg.pagespeed.ic.1_sWUBIBYo.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-34.jpg.pagespeed.ic.8m5y32zf3N.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="lua-chon-sau-noi-dung lua-chon-phan-kinh-te-co-dinh" aria-expanded="false">
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-35.jpg.pagespeed.ic.1OnIo7J0en.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae Donec metus orci, malesuada et lectus vitae Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-36.jpg.pagespeed.ic.ZGCqBhJQrk.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-37.jpg.pagespeed.ic.RgEJRdBLn1.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-38.jpg.pagespeed.ic.BCfnDwQQZn.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+        
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+        
+                                <li><a href="">
+                                    Travel
+                                    <i class="fa-solid fa-angle-down"></i>
+                                    </a>
+                                    <div class="lua-chon-sau">
+                                        <div class="thanh-lua-chon-sau">
+                                            <div class="lua-chon-sau-dieu-huong">
+                                                <ul class="ds-thanh-lua-chon-sau">
+                                                    <li><a class="lua-chon-link lua-chon-link-du-lich-co-dinh duoc-chon-trong-lua-chon-sau" href="" aria-expanded="true">All</a></li>
+                                                    <li><a class="lua-chon-link lua-chon-link-du-lich-co-dinh" href="" aria-expanded="false">Hotels</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="ds-noi-dung-lua-chon-sau">
+                                                <div class="lua-chon-sau-noi-dung lua-chon-phan-du-lich-co-dinh"  aria-expanded="true">
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-39.jpg.pagespeed.ic._FthKn_32E.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">aaaaa malesuada et lectus vitae Donec metus orci, malesuada et lectus vitae Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-42.jpg.pagespeed.ic.u4RenQMqFW.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-40.jpg.pagespeed.ic.iWS2TP9s2F.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-41.jpg.pagespeed.ic.hxGh4mqIfZ.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="lua-chon-sau-noi-dung lua-chon-phan-du-lich-co-dinh" aria-expanded="false">
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-41.jpg.pagespeed.ic.hxGh4mqIfZ.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae Donec metus orci, malesuada et lectus vitae Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-41.jpg.pagespeed.ic.hxGh4mqIfZ.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-37.jpg.pagespeed.ic.RgEJRdBLn1.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-38.jpg.pagespeed.ic.BCfnDwQQZn.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+        
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><a href="">
+                                    Life Style
+                                    <i class="fa-solid fa-angle-down"></i>
+                                    </a>
+                                    <div class="lua-chon-sau">
+                                        <div class="thanh-lua-chon-sau">
+                                            <div class="lua-chon-sau-dieu-huong">
+                                                <ul class="ds-thanh-lua-chon-sau">
+                                                    <li><a class="lua-chon-link duoc-chon-trong-lua-chon-sau" href="" aria-expanded="true">All</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="ds-noi-dung-lua-chon-sau">
+                                                <div class="lua-chon-sau-noi-dung"  aria-expanded="true">
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-27.jpg.pagespeed.ic.eKi-R6Efre.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">aaaaa malesuada et lectus vitae Donec metus orci, malesuada et lectus vitae Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-42.jpg.pagespeed.ic.u4RenQMqFW.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-40.jpg.pagespeed.ic.iWS2TP9s2F.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-41.jpg.pagespeed.ic.hxGh4mqIfZ.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+        
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+        
+                                <li><a href="">
+                                    Video
+                                    <i class="fa-solid fa-angle-down"></i>
+                                    </a>
+                                    <div class="lua-chon-sau">
+                                        <div class="thanh-lua-chon-sau">
+                                            <div class="lua-chon-sau-dieu-huong">
+                                                <ul class="ds-thanh-lua-chon-sau">
+                                                    <li><a class="lua-chon-link duoc-chon-trong-lua-chon-sau" href="" aria-expanded="true">All</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="ds-noi-dung-lua-chon-sau">
+                                                <div class="lua-chon-sau-noi-dung"  aria-expanded="true">
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-36.jpg.pagespeed.ic.ZGCqBhJQrk.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">aaaaa malesuada et lectus vitae Donec metus orci, malesuada et lectus vitae Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-07.jpg.pagespeed.ic.iG-uXCoVpH.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-40.jpg.pagespeed.ic.iWS2TP9s2F.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ds-noi-dung">
+                                                        <a href=""><img src="https://preview.colorlib.com/theme/magnews2/images/xpost-41.jpg.pagespeed.ic.hxGh4mqIfZ.webp" alt="Anh minh hoa"></a>
+                                                        <a href=""><h3 class="ten-noi-dung">Donec metus orci, malesuada et lectus vitae</h3></a>
+                                                        <div class="mo-ta">
+                                                            <a class="mo-ta-the-loai" href=""><span>Music</span></a>
+                                                            <span>&nbsp;-&nbsp;</span>
+                                                            <div class="mo-ta-ngay">
+                                                                <span>Feb 18</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+        
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+        
+                                <li><a href="">
+                                    Features
+                                    <i class="fa-solid fa-angle-down"></i>
+                                    <div class="lua-chon">
+                                        <div class="thanh-lua-chon">
+                                            <ul class="ds-thanh-lua-chon">
+                                                <li><a href="">Category Page v1</a></li>
+                                                <li><a href="">Category Page v2</a></li>
+                                                <li><a href="">About Us</a></li>
+                                                <li><a href="">Contact Us</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Phan dang nhap va dang ki -->
+        
+
+        <!-- ******************************************************************************** -->
+                                    <!-- Bat Dau Phan Gioi thieu -->
+        <section class="gioi-thieu giua">
+            <div class="thanh-tren">
+            <span class="xu-huong">
+                <span class="nhan-xu-huong viet-hoa">Trending now:</span>
+                <span class="xu-huong-hien-tai">
+                Interest rate angst trips up US equity bull market
+                </span>
+            </span>
+            <span class="tim-kiem">
+                <input type="text" name="timKiem" placeholder="Tìm kiếm" />
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </span>
+            </div>
+    
+            <div class="tin-tuc">
+            <!-- h = hang, c = cot -->
+            <div class="tin-tuc-c1">
+                <div class="tom-tat">
+                <a href="#" class="linh-vuc">Business</a>
+                <a href="#" class="tieu-de"
+                    ><h3>Microsoft quisque at ipsum velorci eleifend ultrices</h3></a
+                >
+                <p>Jack Slim &mdash; Feb 16</p>
+                </div>
+            </div>
+            <div class="tin-tuc-c2">
+                <div class="tin-tuc-c2-h1">
+                <div class="tom-tat">
+                    <a href="#" class="linh-vuc">Culture</a>
+                    <a href="#" class="tieu-de"
+                    ><h3>
+                        London ipsum dolor sit amet, consectetur adipiscing elit.
+                    </h3></a
+                    >
+                </div>
+                </div>
+                <div class="tin-tuc-c2-h2">
+                <div class="tin-tuc-c2-h2-c1">
+                    <div class="tom-tat">
+                    <a href="#" class="linh-vuc">Life Style</a>
+                    <a href="#" class="tieu-de">
+                        <h3>
+                        Pellentesque dui nibh, pellen-tesque ut dapibus ut
+                        </h3>
+                    </a>
+                    
+                    </div>
+                </div>
+                <div class="tin-tuc-c2-h2-c2">
+                    <div class="tom-tat">
+                    <a href="#" class="linh-vuc">Sport</a>
+                    <a href="#" class="tieu-de"
+                        ><h3>
+                        Motobike Vestibulum vene-natis purus nec nibh volutpat
+                        </h3></a
+                    >
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </section>
+                                    <!-- Ket Thuc Phan Gioi Thieu -->
+
+        <!-- ******************************************************************************** -->
+                                            <!-- Bat Dau Noi Dung -->
+        <section class="phanThan">
+            <div class="khung">
+                <div class="noiDung">
+    
+                    <!-- Chu De Bat Dau o day -->
+                    <div class="chuDe">
+    
+                        <!-- Bat day chu de giai tri -->
+                        <div class="chuDeCon t-1 m-b-30">
+                            <div class="thanhTieuDe">
+                                <h3 class="tieuDe">Entertainment</h3>
+                                <ul class="danhSach">
+                                    <li class="thanhPhan">
+                                        <a href="#" class="thanhPhan__lienKet">All</a>
+                                    </li>
+                                    <li class="thanhPhan">Celebrity</li>
+                                    <li class="thanhPhan">Movie</li>
+                                    <li class="thanhPhan">Music</li>
+                                    <li class="thanhPhan">Games</li>
+                                    <li class="thanhPhan">
+                                        <i class="fa-solid fa-ellipsis"></i>
+                                    </li>
+                                </ul>
+                                <a href="#" class="duongDan">View all
+                                    <i class="fa-solid fa-caret-right muiTen"></i>
+                                </a>
+                            </div>
+    
+                            <div class="noiDungChuDe">
+                                <div class="noiBat">
+                                    <a href="#" class="linkBaiViet">
+                                        <img src="https://preview.colorlib.com/theme/magnews2/images/xpost-05.jpg.pagespeed.ic.s1Z8iTpwXe.webp" alt="anh loi" class="anhBaiViet">
+                                    </a>
+
+                                    <div class="noiDungChuDe__thongTin">
+                                        <h5>
+                                            <a href="#" class="tieuDeBaiViet m-b-10">    
+                                            American live music lorem ipsum dolor sit amet consectetur
+                                            </a>
+                                        </h5>
+        
+                                        <span class="thongTin">
+                                            <a href="#">Music</a>
+                                            <span style="margin: 0 2px;color: #888;">-</span>
+                                            <span style="color: #888;">Feb 18</span>
+                                        </span>
+                                    </div>
+
+                                </div>
+    
+                                <div class="lienQuan">
+                                    
+                                    <div class="dong">
+                                        <a class="dong__link">
+                                            <img src="https://preview.colorlib.com/theme/magnews2/images/xpost-06.jpg.pagespeed.ic.wgeGpf1Hgi.webp
+                                            " alt="Anh_Loi" class="dong__anh">
+                                        </a>
+                                        <div class="dong__thongTin">
+                                            <h5>
+                                                <a href="#" class="tieuDeBaiViet nho">    
+                                                    Donec metus orci, malesuada et lectus vitae
+                                                </a>
+                                            </h5>
+            
+                                            <span class="thongTin">
+                                                <a href="#" style="color: #888;">Music</a>
+                                                <span style="margin: 0 2px;color: #888;">-</span>
+                                                <span style="color: #888;">Feb 17</span>
+                                            </span>
+                                        </div>
+                                    </div>
+    
+                                    <div class="dong">
+                                        <a class="dong__link">
+                                            <img src="https://preview.colorlib.com/theme/magnews2/images/xpost-07.jpg.pagespeed.ic.iG-uXCoVpH.webp
+                                            " alt="Anh_Loi" class="dong__anh">
+                                        </a>
+                                        <div class="dong__thongTin">
+                                            <h5>
+                                                <a href="#" class="tieuDeBaiViet nho">    
+                                                    Donec metus orci, malesuada et lectus vitae
+                                                </a>
+                                            </h5>
+            
+                                            <span class="thongTin">
+                                                <a href="#" style="color: #888;">Music</a>
+                                                <span style="margin: 0 2px;color: #888;">-</span>
+                                                <span style="color: #888;">Feb 16</span>
+                                            </span>
+                                        </div>
+                                    </div>
+    
+                                    <div class="dong">
+                                        <a class="dong__link">
+                                            <img src="https://preview.colorlib.com/theme/magnews2/images/xpost-08.jpg.pagespeed.ic.OyBg0vTCNa.webp
+    
+                                            " alt="Anh_Loi" class="dong__anh">
+                                        </a>
+                                        <div class="dong__thongTin">
+                                            <h5>
+                                                <a href="#" class="tieuDeBaiViet nho">    
+                                                    Donec metus orci, malesuada et lectus vitae
+                                                </a>
+                                            </h5>
+            
+                                            <span class="thongTin">
+                                                <a href="#" style="color: #888;">Music</a>
+                                                <span style="margin: 0 2px;color: #888;">-</span>
+                                                <span style="color: #888;">Feb 12</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                            </div>
+                        </div>
+                        <!-- Ket thuc chu de giai tri -->                      
+                        <!-- Bat day chu de giai tri -->
+                        <div class="chuDeCon t-2 m-b-30">
+                            <div class="thanhTieuDe">
+                                <h3 class="tieuDe">Business</h3>
+                                <ul class="danhSach">
+                                    <li class="thanhPhan">
+                                        <a href="#" class="thanhPhan__lienKet">All</a>
+                                    </li>
+                                    <li class="thanhPhan">Finance</li>
+                                    <li class="thanhPhan">Money & Markets</li>
+                                    <li class="thanhPhan">Small Business</li>
+                                    <li class="thanhPhan">
+                                        <i class="fa-solid fa-ellipsis"></i>
+                                    </li>
+                                </ul>
+                                <a href="#" class="duongDan">View all
+                                    <i class="fa-solid fa-caret-right muiTen"></i>
+                                </a>
+                            </div>
+    
+                            <div class="noiDungChuDe">
+                                <div class="noiBat">
+                                    <a href="#" class="linkBaiViet">
+                                        <img src="https://preview.colorlib.com/theme/magnews2/images/xpost-10.jpg.pagespeed.ic.TMbbnvFltG.webp" alt="anh loi" class="anhBaiViet">
+                                    </a>
+
+                                    <div class="noiDungChuDe__thongTin">
+                                        <h5>
+                                            <a href="#" class="tieuDeBaiViet">    
+                                                Bitcoin lorem ipsum dolor sit amet consectetur
+                                            </a>
+                                        </h5>
+        
+                                        <span class="thongTin">
+                                            <a href="#" style="color: #888;">Finance</a>
+                                            <span style="margin: 0 2px;color: #888;">-</span>
+                                            <span style="color: #888;">Feb 18</span>
+                                        </span>
+                                    </div>
+                                </div>
+    
+                                <div class="lienQuan">
+                                    
+                                    <div class="dong">
+                                        <a class="dong__link">
+                                            <img src="https://preview.colorlib.com/theme/magnews2/images/xpost-11.jpg.pagespeed.ic.UQAgfiqIgA.webp
+                                            " alt="Anh_Loi" class="dong__anh">
+                                        </a>
+                                        <div class="dong__thongTin">
+                                            <h5>
+                                                <a href="#" class="tieuDeBaiViet nho">    
+                                                    Donec metus orci, malesuada et lectus vitae
+                                                </a>
+                                            </h5>
+            
+                                            <span class="thongTin">
+                                                <a href="#" style="color: #888;">Small Business</a>
+                                                <span style="margin: 0 2px;color: #888;">-</span>
+                                                <span style="color: #888;">Feb 17</span>
+                                            </span>
+                                        </div>
+                                    </div>
+    
+                                    <div class="dong">
+                                        <a class="dong__link">
+                                            <img src="https://preview.colorlib.com/theme/magnews2/images/xpost-12.jpg.pagespeed.ic.2AsXQCrBGe.webp
+                                            " alt="Anh_Loi" class="dong__anh">
+                                        </a>
+                                        <div class="dong__thongTin">
+                                            <h5>
+                                                <a href="#" class="tieuDeBaiViet nho">    
+                                                    Donec metus orci, malesuada et lectus vitae
+                                                </a>
+                                            </h5>
+            
+                                            <span class="thongTin">
+                                                <a href="#" style="color: #888;">Economy</a>
+                                                <span style="margin: 0 2px;color: #888;">-</span>
+                                                <span style="color: #888;">Feb 16</span>
+                                            </span>
+                                        </div>
+                                    </div>
+    
+                                    <div class="dong">
+                                        <a class="dong__link">
+                                            <img src="https://preview.colorlib.com/theme/magnews2/images/xpost-13.jpg.pagespeed.ic.tdNPR4H7Nc.webp
+    
+                                            " alt="Anh_Loi" class="dong__anh">
+                                        </a>
+                                        <div class="dong__thongTin">
+                                            <h5>
+                                                <a href="#" class="tieuDeBaiViet nho">    
+                                                    Donec metus orci, malesuada et lectus vitae
+                                                </a>
+                                            </h5>
+            
+                                            <span class="thongTin">
+                                                <a href="#" style="color: #888;">Money & Markets</a>
+                                                <span style="margin: 0 2px;color: #888;">-</span>
+                                                <span style="color: #888;">Feb 12</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                            </div>
+                        </div>
+                        <!-- Ket thuc chu de giai tri -->
+
+                        <!-- Bat day chu de giai tri -->
+                        <div class="chuDeCon t-3">
+                            <div class="thanhTieuDe">
+                                <h3 class="tieuDe">Travel</h3>
+                                <ul class="danhSach">
+                                    <li class="thanhPhan">
+                                        <a href="#" class="thanhPhan__lienKet">All</a>
+                                    </li>
+                                    <li class="thanhPhan">Hotels</li>
+                                    <li class="thanhPhan">Flight</li>
+                                    <li class="thanhPhan">Beachs</li>
+                                    <li class="thanhPhan">Culture</li>
+                                    <li class="thanhPhan">
+                                        <i class="fa-solid fa-ellipsis"></i>
+                                    </li>
+                                </ul>
+                                <a href="#" class="duongDan">View all
+                                    <i class="fa-solid fa-caret-right muiTen"></i>
+                                </a>
+                            </div>
+    
+                            <div class="noiDungChuDe">
+                                <div class="noiBat">
+                                    <a href="#" class="linkBaiViet">
+                                        <img src="https://preview.colorlib.com/theme/magnews2/images/xpost-14.jpg.pagespeed.ic._smxioTLvb.webp" alt="anh loi" class="anhBaiViet">
+                                    </a>
+
+                                    <div class="noiDungChuDe__thongTin">
+                                        <h5>
+                                            <a href="#" class="tieuDeBaiViet">    
+                                            American live music lorem ipsum dolor sit amet consectetur
+                                            </a>
+                                        </h5>
+        
+                                        <span class="thongTin">
+                                            <a href="#" style="color: #888;">Hotels</a>
+                                            <span style="margin: 0 2px;color: #888;">-</span>
+                                            <span style="color: #888;">Feb 18</span>
+                                        </span>
+                                    </div>
+                                </div>
+    
+                                <div class="lienQuan">
+                                    
+                                    <div class="dong">
+                                        <a class="dong__link">
+                                            <img src="https://preview.colorlib.com/theme/magnews2/images/xpost-15.jpg.pagespeed.ic.te3VPU1Jk2.webp
+                                            " alt="Anh_Loi" class="dong__anh">
+                                        </a>
+                                        <div class="dong__thongTin">
+                                            <h5>
+                                                <a href="#" class="tieuDeBaiViet nho">    
+                                                    Donec metus orci, malesuada et lectus vitae
+                                                </a>
+                                            </h5>
+            
+                                            <span class="thongTin">
+                                                <a href="#" style="color: #888;">Beachs</a>
+                                                <span style="margin: 0 2px;color: #888;">-</span>
+                                                <span style="color: #888;">Feb 17</span>
+                                            </span>
+                                        </div>
+                                    </div>
+    
+                                    <div class="dong">
+                                        <a class="dong__link">
+                                            <img src="https://preview.colorlib.com/theme/magnews2/images/xpost-16.jpg.pagespeed.ic.dZDtZZUpyL.webp
+                                            " alt="Anh_Loi" class="dong__anh">
+                                        </a>
+                                        <div class="dong__thongTin">
+                                            <h5>
+                                                <a href="#" class="tieuDeBaiViet nho">    
+                                                    Donec metus orci, malesuada et lectus vitae
+                                                </a>
+                                            </h5>
+            
+                                            <span class="thongTin">
+                                                <a href="#" style="color: #888;">Flight</a>
+                                                <span style="margin: 0 2px;color: #888;">-</span>
+                                                <span style="color: #888;">Feb 16</span>
+                                            </span>
+                                        </div>
+                                    </div>
+    
+                                    <div class="dong">
+                                        <a class="dong__link">
+                                            <img src="https://preview.colorlib.com/theme/magnews2/images/xpost-17.jpg.pagespeed.ic.ZtJCetoRYD.webp
+                                            " alt="Anh_Loi" class="dong__anh">
+                                        </a>
+                                        <div class="dong__thongTin">
+                                            <h5>
+                                                <a href="#" class="tieuDeBaiViet nho">    
+                                                    Donec metus orci, malesuada et lectus vitae
+                                                </a>
+                                            </h5>
+            
+                                            <span class="thongTin">
+                                                <a href="#" style="color: #888;">Culture</a>
+                                                <span style="margin: 0 2px;color: #888;">-</span>
+                                                <span style="color: #888;">Feb 12</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                            </div>
+                        </div>
+                        <!-- Ket thuc chu de giai tri -->
+                    </div>
+                    
+                    <!-- Chu de ket thuc o day -->
+
+                    <!-- Mo rong bat dau o day -->
+                    <div class="moRong t-4">
+
+                        <div class="thanhTieuDe">
+                            <h3 class="tieuDe">Most Popular</h3>
+                        </div>
+
+                        <div class="moRong__danhSach">
+                            
+                            <div class="moRong__phanTu">
+                                <div class="moRong__phanTu-so">
+                                    <span>1</span>
+                                </div>
+                                <a href="#" class="moRong__phanTu-tieuDe">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                </a>
+                            </div>
+
+                            <div class="moRong__phanTu">
+                                <div class="moRong__phanTu-so">2</div>
+                                <a href="#" class="moRong__phanTu-tieuDe">   
+                                    Proin velit consectetur non neque
+                                </a>
+                            </div>
+
+                            <div class="moRong__phanTu">
+                                <div class="moRong__phanTu-so">3</div>
+                                <a href="#" class="moRong__phanTu-tieuDe">
+                                    Nunc vestibulum, enim vitae condimentum volutpat lobortis ante
+                                </a>
+                            </div>
+
+                            <div class="moRong__phanTu">
+                                <div class="moRong__phanTu-so">4</div>
+                                <a href="#" class="moRong__phanTu-tieuDe">
+                                    Proin velit justo consectetur non neque elementum
+                                </a>
+                            </div>
+
+                            <div class="moRong__phanTu">
+                                <div class="moRong__phanTu-so">5</div>
+                                <a href="#" class="moRong__phanTu-tieuDe">
+                                    Proin velit consectetur non neque
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="moRong__hinhAnh">
+                            <a href="" class="moRong__hinhAnh-link">
+                                <img src="https://preview.colorlib.com/theme/magnews2/images/xbanner-02.jpg.pagespeed.ic.syBVONHQmd.webp" alt="anh_loi">
+                            </a>
+                        </div>
+
+                        <div class="thanhTieuDe">
+                            <h3 class="tieuDe">Stay Connect</h3>
+                        </div>
+
+                        <div class="moRong__ketNoi">
+                            <div class="moRong__ketNoi-pt">
+                                <span class="motRong_ketNoi-pt-1">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </span>
+
+                                <span>6879 Fans</span>
+                                <a href="#">LIKE</a>
+                            </div>
+
+                            <div class="moRong__ketNoi-pt">
+                                <span class="motRong_ketNoi-pt-2">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </span>
+
+                                <span>568 Followers</span>
+                                <a href="#">FOLLOW</a>
+                            </div>
+
+                            <div class="moRong__ketNoi-pt">
+                                <span class="motRong_ketNoi-pt-3">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </span>
+                                <span>5039 Subcribers</span>
+                                <a href="#">SUBSCRIBER</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Mo rong ket thuc o day -->
+                </div>
+            </div>
+        </section>
+                                            <!-- Ket Thuc Noi Dung -->
+        <div class="phan_cuoi">
+
+            <div class="phan_chan giua">
+                <div class="phan_chan_1">
+                    <a class="lo_go_chan">
+                        <img src="./assets/img/logo_chan.png" alt="Anh lo go">
+                    </a>
+                    <span class="mo_ta_chan">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Curabitur tempor magna eget elit efficitur, at accumsan sem placerat. 
+                        Nulla tellus libero, mattis nec molestie at, facilisis ut turpis. 
+                        Vestibulum dolor metus, tincidunt eget odio
+                    </span>
+                    <div class="mang">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-pinterest-p"></i>
+                        <i class="fa-brands fa-vimeo-v"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+    
+                </div>
+                <div class="phan_chan_2">
+
+                    <div class="cac_bai_bao_pho_bien">
+                        <span class="ten_tieu_de_cac_bai_bao_pho_bien">
+                            Popular Posts
+                        </span>
+                        <div class="bai_bao_pho_bien">
+                            <div class="pho_bien_anh">
+                                <img src="https://preview.colorlib.com/theme/magnews2/images/xpost-06.jpg.pagespeed.ic.wgeGpf1Hgi.webp
+                                " alt="Anh_Loi" class="dong__anh">
+                            </div>
+                            <div class="pho_bien_mo_ta">
+                                <h5>
+                                    <a href="#" class="tieuDeBaiViet nho">    
+                                        Donec metus orci, malesuada et lectus vitae aaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa Donec metus orci, malesuada et lectus vitae aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                                    </a>
+                                </h5>
+                                <span style="color: #888;">Feb 17</span>
+                            </div>
+                        </div>
+                        <div class="bai_bao_pho_bien">
+                            <div class="pho_bien_anh">
+                                <img src="https://preview.colorlib.com/theme/magnews2/images/xpost-06.jpg.pagespeed.ic.wgeGpf1Hgi.webp
+                                " alt="Anh_Loi" class="dong__anh">
+                            </div>
+                            <div class="pho_bien_mo_ta">
+                                <h5>
+                                    <a href="#" class="tieuDeBaiViet nho">    
+                                        Donec metus orci, malesuada et lectus vitae
+                                    </a>
+                                </h5>
+                                <span style="color: #888;">Feb 17</span>
+                            </div>
+                        </div>
+                        <div class="bai_bao_pho_bien">
+                            <div class="pho_bien_anh">
+                                <img src="https://preview.colorlib.com/theme/magnews2/images/xpost-05.jpg.pagespeed.ic.s1Z8iTpwXe.webp
+                                " alt="Anh_Loi" class="dong__anh">
+                            </div>
+                            <div class="pho_bien_mo_ta">
+                                <h5>
+                                    <a href="#" class="tieuDeBaiViet nho">    
+                                        Donec metus orci, malesuada et lectus vitae
+                                    </a>
+                                </h5>
+                                <span style="color: #888;">Feb 17</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="cac_loai_bai_bao">
+                        <span class="ten_tieu_de_cac_loai_bai_bao">
+                            Category
+                        </span>
+                        <ul class="danh_sach_loai_bai_bao">
+    
+                            <li class="loai_bai_bao">
+                                <a class="ten_loai_bai_bao">
+                                    Fashion (<span>22</span>)
+                                </a>
+                            </li>
+                            <li class="loai_bai_bao">
+                                <a class="ten_loai_bai_bao">
+                                    Technology (<span>16</span>)
+                                </a>
+                            </li>
+                            <li class="loai_bai_bao">
+                                <a class="ten_loai_bai_bao">
+                                    Street Style (<span>20</span>)
+                                </a>
+                            </li>
+                            <li class="loai_bai_bao">
+                                <a class="ten_loai_bai_bao">
+                                    Life Style (<span>28</span>)
+                                </a>
+                            </li>
+                            <li class="loai_bai_bao">
+                                <a class="ten_loai_bai_bao">
+                                    DIY & Crafts (<span>16</span>)
+                                </a>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+    
+    <script src="./main.js"></script>
+</body>
+</html>
